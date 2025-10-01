@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vscode
+bin/
+obj/
+
+# Outros arquivos temporários
+*.log
+*.tmp
+*.cache
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Pacotes
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
