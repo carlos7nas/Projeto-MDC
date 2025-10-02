@@ -4,7 +4,15 @@
 ---
 
 ## 📖 Sobre o projeto  
-O **Projeto MDC** tem como objetivo aplicar conceitos de programação, estrutura de sistemas e versionamento de código utilizando Git e GitHub.  
+Eu usei o SelectedIndexChanged de dois componentes principais: No ComboBox do Universo (CBUNI), é possível selecionar uma das duas opções de universos (Marvel ou DC), e também quando selecionada novamente, limpa as opções e os dados anteriores. No ComboBox de Personagens (CBPERSONAGEM), o evento é responsável por carregar a imagem e o texto de descrição do personagem selecionado, apenas com os heróis do universo escolhido, usando o método Items.Add().
+
+Uma técnica que me desafiou e ensinou muito foi a de carregar as imagens de forma dinâmica. Usei o método Directory.GetFiles do C# para percorrer todos os arquivos em uma pasta específica.
+
+Para garantir que a imagem correta fosse carregada, precisei manipular as strings (os caminhos completos dos arquivos). Usei o método Split('\\') para separar o caminho por barras e isolar o nome do arquivo, e depois Split('.') para remover a extensão e obter o nome do personagem, garantindo que ele coincidisse com a opção selecionada no ComboBox.
+
+Usei o componente PictureBox para exibir a imagem, definindo sua propriedade ImageLocation e o SizeMode como StretchImage. A descrição do personagem foi exibida em um Label (lblcharacter).
+
+Foi fundamental usar a estrutura if para gerenciar a lógica de qual descrição e qual imagem carregar para cada personagem. O foreach foi essencial para iterar sobre a lista de arquivos de imagem e encontrar a correta.
 
 ---
 
