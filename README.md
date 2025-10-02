@@ -34,3 +34,4 @@ O **Projeto MDC** tem como objetivo aplicar conceitos de programação, estrutur
 ✨ Autor
 👤 Carlos Vitor
 🔗 [GitHub](https://github.com/carlos7nas)
+🔗 [LinkedIn] (https://www.linkedin.com/in/carlosvitordonascimento)
